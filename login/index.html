@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conecte-se - Mercado DaVaca</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Conecte-se</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required oninvalid="this.setCustomValidity('Por Favor, preencha este campo.')">
+          <span></span>
+          <label>Nome de Usuário</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required oninvalid="this.setCustomValidity('Por Favor, preencha este campo.')">
+          <span></span>
+          <label>Senha</label>
+        </div>
+        <div class="pass">Esqueceu a senha?</div>
+        <input type="submit" value="Entrar">
+        <div class="signup_link">
+          Não é um membro? <a href="#">Cadastre-se</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
+
